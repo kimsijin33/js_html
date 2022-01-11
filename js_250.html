@@ -10,14 +10,18 @@
             this.name = name;
             this.dept = dept;
             this.grade = grade;
-            this.print = function () {
+            /*this.print = function () {
                 document.write(this.name+"은"+ this.dept+"과"+this.grade+
                 "학년 학생입니다.<br/>");
-            }
+            }*/
+        }
+        Student.prototype.print = function () {
+            document.write(this.name+"은 "+ this.dept+"과 "+this.grade+"학년 학생입니다.<br/>");
         }
         //객체 생성
         s1 = new Student("홍길동", "컴퓨터과학", 2);
         s2 = new Student("성춘향", "통계학", 1);
+        //249page
         s1.region = "서울";
         s1.subjects = function () {
             document.write("수강과목: 컴퓨터과학개론, 알고리즘 HTML5<br/>");
