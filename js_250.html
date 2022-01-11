@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 자바스크립트</title>
+
+    <script>
+        //사용자 정의 객체의 정의
+        function Student (name, dept, grade){
+            this.name = name;
+            this.dept = dept;
+            this.grade = grade;
+            this.print = function () {
+                document.write(this.name+"은"+ this.dept+"과"+this.grade+
+                "학년 학생입니다.<br/>");
+            }
+        }
+        //객체 생성
+        s1 = new Student("홍길동", "컴퓨터과학", 2);
+        s2 = new Student("성춘향", "통계학", 1);
+        s1.region = "서울";
+        s1.subjects = function () {
+            document.write("수강과목: 컴퓨터과학개론, 알고리즘 HTML5<br/>");
+        }
+        //내장 객체의 내용
+        cDate = new Date();
+        document.write("["+(cDate.getMonth()+1)+"월"+cDate.getDate()+"일 현재]<br/>");
+        //메서드 호출
+        s1.print();
+        s2.print();
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>자바스크립트 객체</h1>
+    </div>
+
+</body>
+
+</html>
