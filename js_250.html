@@ -17,6 +17,8 @@
         }
         Student.prototype.print = function () {
             document.write(this.name+"은 "+ this.dept+"과 "+this.grade+"학년 학생입니다.<br/>");
+            document.write("여기는 "+this.region+"입니다.<br/>");
+            document.write(this.subjects);
         }
         //객체 생성
         s1 = new Student("홍길동", "컴퓨터과학", 2);
