@@ -1,0 +1,29 @@
+자바스크립트 String 객체의 송성과 메서드의 사용
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 자바스크립트 </title>
+
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = document.myform.color.value;
+        }
+
+        function restorebgColor() {
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+</head>
+
+<body onLoad="alert('버튼을 클릭해 보세요!')">
+    <form name="myform">
+        <input type="color" name="color">
+        <input type="button" value="생상변경" onClick="changeColor()">
+        <input type="button" value="원래대로" onClick="restorebgColor()">
+    </form>
+
+</body>
+
+</html>
