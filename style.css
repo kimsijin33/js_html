@@ -64,3 +64,17 @@
   button {
     background: silver;
   }
+
+  .link {
+    background-image: linear-gradient(#ff2f97, #ff2f97);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 500ms;
+}
+
+.link:hover {
+    background-size: 100% 100%;
+    background-position: left;
+}
