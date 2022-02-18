@@ -21,8 +21,9 @@
   }
   
   #outside-pic {
-    width: 150px;
-    height: 150px;
+    /*width: 150px;
+    height: 150px;*/
+c
 
     -webkit-transform:scale(1);
     -moz-transform:scale(1);
@@ -70,6 +71,8 @@
   
   #inside-pic {
     /*width: 50px;
+    height: 150px;*/
+    /*width: 150px;
     height: 150px;*/
     width: 150px;
     height: 150px;
