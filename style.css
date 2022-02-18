@@ -95,14 +95,14 @@
   transform:scale(1.2);
   }
   
-  /* ### ### ### 11 */
-.link {
+ /* ### ### ### 11 */
+.b11_3d_jumpback {
     perspective: 500px;
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
-    }
+}
 
-.link button {
+.b11_3d_jumpback div {
     color: #000000;
     background-color: #ffffff;
     border: #000000 solid 1px;
@@ -115,7 +115,7 @@
     -moz-box-sizing: border-box;
 }
 
-.link:hover button {
+.b11_3d_jumpback:hover div {
     color: #ffffff;
     background-color: #000000;
     animation: b11_3d_jump 0.3s ease-out;
@@ -126,7 +126,7 @@
     -moz-animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes link {
+@-webkit-keyframes b11_3d_jump {
     from {
         transform: translateZ(0px) rotateX(0deg);
         -webkit-transform: translateZ(0px) rotateX(0deg);
@@ -157,7 +157,7 @@
     }
 }
 
-@-moz-keyframes link {
+@-moz-keyframes b11_3d_jump {
     from {
         transform: translateZ(0px) rotateX(0deg);
         -webkit-transform: translateZ(0px) rotateX(0deg);
