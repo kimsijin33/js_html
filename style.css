@@ -68,10 +68,10 @@
     text-align: center;
   }
   
-  #inside-pic {
+  .link {
     /*width: 50px;
     height: 150px;*/
-    /*width: 150px;
+    width: 150px;
     height: 150px;
 
     -webkit-transform:scale(1);
@@ -84,37 +84,25 @@
     -ms-transition:.3s;
     -o-transition:.3s;
     transition:.3s;
-    */
-    width: 33%;
-    height: 200px;
-    float: left;
-    background-color: #eeeeee;
-    border: 10px;
-    border-color: #ffffff;
-    border-style: solid;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    counter-increment: bc;
-    padding: 0px 5px 5px 5px;
+    
   }
-  /*
-  #inside-pic:hover {
+  
+  .link:hover {
   -webkit-transform:scale(1.2);
   -moz-transform:scale(1.2);
   -ms-transform:scale(1.2);   
   -o-transform:scale(1.2);
   transform:scale(1.2);
   }
-  */
+  
   /* ### ### ### 11 */
-#inside-pic {
+.link {
     perspective: 500px;
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
 }
 
-#inside-pic div {
+.link div {
     color: #000000;
     background-color: #ffffff;
     border: #000000 solid 1px;
@@ -127,7 +115,7 @@
     -moz-box-sizing: border-box;
 }
 
-#inside-pic:hover div {
+.link:hover div {
     color: #ffffff;
     background-color: #000000;
     animation: b11_3d_jump 0.3s ease-out;
@@ -138,7 +126,7 @@
     -moz-animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes inside-pic {
+@-webkit-keyframes link {
     from {
         transform: translateZ(0px) rotateX(0deg);
         -webkit-transform: translateZ(0px) rotateX(0deg);
