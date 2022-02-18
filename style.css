@@ -68,10 +68,9 @@
     text-align: center;
   }
   
-  /*.link {*/
+  #inside-pic {
     /*width: 50px;
     height: 150px;*/
-    /*
     width: 150px;
     height: 150px;
 
@@ -86,16 +85,15 @@
     -o-transition:.3s;
     transition:.3s;
     
-  }*/
+  }
   
-  /*
-  .link:hover {
+  #inside-pic:hover {
   -webkit-transform:scale(1.2);
   -moz-transform:scale(1.2);
   -ms-transform:scale(1.2);   
   -o-transform:scale(1.2);
   transform:scale(1.2);
-  }*/
+  }
   
   /* ### ### ### 11 */
 .link {
@@ -198,7 +196,7 @@
   button {
     background: silver;
   }
-
+  /*
   .link {
     background-image: linear-gradient(#ff2f97, #ff2f97);
     background-repeat: no-repeat;
@@ -211,4 +209,4 @@
 .link:hover {
     background-size: 100% 100%;
     background-position: left;
-}
+}*/
