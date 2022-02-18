@@ -68,9 +68,10 @@
     text-align: center;
   }
   
-  .link {
+  /*.link {*/
     /*width: 50px;
     height: 150px;*/
+    /*
     width: 150px;
     height: 150px;
 
@@ -85,24 +86,23 @@
     -o-transition:.3s;
     transition:.3s;
     
-  }
+  }*/
   
+  /*
   .link:hover {
   -webkit-transform:scale(1.2);
   -moz-transform:scale(1.2);
   -ms-transform:scale(1.2);   
   -o-transform:scale(1.2);
   transform:scale(1.2);
-  }
+  }*/
   
   /* ### ### ### 11 */
 .link {
     perspective: 500px;
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
-}
 
-.link div {
     color: #000000;
     background-color: #ffffff;
     border: #000000 solid 1px;
