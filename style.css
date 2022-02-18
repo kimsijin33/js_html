@@ -95,7 +95,7 @@
   transform:scale(1.2);
   }
 
-  .back {
+/*  .back {
     width: 33%;
     height: 200px;
     float: left;
@@ -149,10 +149,10 @@
 
 .button_base:hover {
     cursor: pointer;
-}
+}*/
   
  /* ### ### ### 11 */
-.b11_3d_jumpback {
+/*.b11_3d_jumpback {
     perspective: 500px;
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
@@ -242,7 +242,7 @@
         background-color: #000000;
         color: #ffffff;
     }
-}
+}*/
   
   #message {
     color: black;
