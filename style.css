@@ -71,9 +71,9 @@
   #inside-pic {
     /*width: 50px;
     height: 150px;*/
-    width: 150px;
+    /*width: 150px;
     height: 150px;
-    /*
+
     -webkit-transform:scale(1);
     -moz-transform:scale(1);
     -ms-transform:scale(1); 
@@ -85,6 +85,18 @@
     -o-transition:.3s;
     transition:.3s;
     */
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: #eeeeee;
+    border: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    padding: 0px 5px 5px 5px;
   }
   /*
   #inside-pic:hover {
