@@ -171,7 +171,7 @@
     -moz-box-sizing: border-box;
 }
 
-.b11_3d_jumpback:hover {
+.b11_3d_jumpback:hover div {
     color: #ffffff;
     background-color: #000000;
     animation: b11_3d_jump 0.3s ease-out;
