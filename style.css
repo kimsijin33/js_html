@@ -100,7 +100,9 @@
     perspective: 500px;
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
+    }
 
+.link button {
     color: #000000;
     background-color: #ffffff;
     border: #000000 solid 1px;
@@ -113,7 +115,7 @@
     -moz-box-sizing: border-box;
 }
 
-.link:hover div {
+.link:hover button {
     color: #ffffff;
     background-color: #000000;
     animation: b11_3d_jump 0.3s ease-out;
@@ -193,11 +195,10 @@
     text-align: center;
   }
   
-  button {
+  /*button {
     background: silver;
-  }
-  /*
-  .link {
+  }*/
+  /*.link {
     background-image: linear-gradient(#ff2f97, #ff2f97);
     background-repeat: no-repeat;
     background-size: 0% 100%;
