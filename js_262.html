@@ -8,7 +8,7 @@
     <script>
         date = new Date();
         document.write("<p> 현재 날짜/시간 : ");
-        document.write("[ "+ date.getFullYear() + "년");
+        document.write("[ "+ date.getFullYear() + "년 ");
         document.write((date.getMonth()+1) + "월 ");
         document.write(date.getDate() + "일");
 
@@ -23,11 +23,11 @@
         }
         if (date.getHours() > 12) {
             document.write("오후 ");
-            document.write((date.getHours()-12) + "시");
+            document.write((date.getHours()-12) + "시 ");
         }
         else {
             document.write("오전 ");
-            document.write(date.getHours() + "시");
+            document.write(date.getHours() + "시 ");
         }
         document.write(date.getMinutes()+"분 ");
         document.write(date.getSeconds() + "초");
