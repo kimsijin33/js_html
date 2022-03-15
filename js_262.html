@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> 자바스크립트 259page</title>
+
+    <script>
+        date = new Date();
+        document.write("<p> 현재 날짜/시간 : ");
+        document.write("[ "+ date.getFullYear() + "년");
+        document.write((date.getMonth()+1) + "월 ");
+        document.write(date.getDate() + "일");
+
+        switch ( date.getDay() ) {
+            case 0 : document.write(" 일요일 "); break;
+            case 1 : document.write(" 월요일 "); break;
+            case 2 : document.write(" 화요일 "); break;
+            case 3 : document.write(" 수요일 "); break;
+            case 4 : document.write(" 목요일 "); break;
+            case 5 : document.write(" 금요일 "); break;
+            case 6 : document.write(" 토요일 "); break;
+        }
+        if (date.getHours() > 12) {
+            document.write("오후 ");
+            document.write((date.getHours()-12) + "시");
+        }
+        else {
+            document.write("오전 ");
+            document.write(date.getHours() + "시");
+        }
+        document.write(date.getMinutes()+"분 ");
+        document.wrtie(date.getSeconds() + "초");
+        document.write(" ]</p>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
